@@ -11,6 +11,8 @@
 		A933025B2888AC73003DF201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933025A2888AC73003DF201 /* ContentView.swift */; };
 		A933025D2888AC73003DF201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A933025C2888AC73003DF201 /* Assets.xcassets */; };
 		A93302602888AC73003DF201 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A933025F2888AC73003DF201 /* Preview Assets.xcassets */; };
+		A9F59E7D288B299A0062A803 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E7C288B299A0062A803 /* Flower.swift */; };
+		A9F59E7F288B2B170062A803 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E7E288B2B170062A803 /* ColorCyclingCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		A933025A2888AC73003DF201 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A933025C2888AC73003DF201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A933025F2888AC73003DF201 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9F59E7C288B299A0062A803 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		A9F59E7E288B2B170062A803 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		A93302572888AC73003DF201 /* Drawing */ = {
 			isa = PBXGroup;
 			children = (
+				A9F59E7C288B299A0062A803 /* Flower.swift */,
 				A93302582888AC73003DF201 /* DrawingApp.swift */,
 				A933025A2888AC73003DF201 /* ContentView.swift */,
 				A933025C2888AC73003DF201 /* Assets.xcassets */,
 				A933025E2888AC73003DF201 /* Preview Content */,
+				A9F59E7E288B2B170062A803 /* ColorCyclingCircle.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A933025B2888AC73003DF201 /* ContentView.swift in Sources */,
+				A9F59E7F288B2B170062A803 /* ColorCyclingCircle.swift in Sources */,
 				A93302592888AC73003DF201 /* DrawingApp.swift in Sources */,
+				A9F59E7D288B299A0062A803 /* Flower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
