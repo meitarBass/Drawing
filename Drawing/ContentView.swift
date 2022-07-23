@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var rows = 4
-    @State private var columns = 4
+    @State private var arrowThickness: Double = 100
+    @State private var arrowLength: Double = 100
+    
+    @State private var colorCycle: Double = 3
     
     var body: some View {
-        Checkerboard(rows: rows, columns: columns)
-            .onTapGesture {
-                withAnimation(.linear(duration: 3)) {
-                    rows = 8
-                    columns = 16
+        
+        VStack {
+            Arrow(arrowThickness: arrowThickness, arrowLength: arrowLength)
+                .stroke(lineWidth: 3)
+                .onTapGesture {
+                    withAnimation (.linear(duration: 2)) {
+                        arrowThickness = arrowThickness * 1.2
+                        arrowLength = arrowLength * 1.3
+                    }
                 }
-            }
+
+        }
+        .frame(width: 300, height: 300)
     }
 }
 
