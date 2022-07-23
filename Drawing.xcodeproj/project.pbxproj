@@ -11,6 +11,8 @@
 		A933025B2888AC73003DF201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933025A2888AC73003DF201 /* ContentView.swift */; };
 		A933025D2888AC73003DF201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A933025C2888AC73003DF201 /* Assets.xcassets */; };
 		A93302602888AC73003DF201 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A933025F2888AC73003DF201 /* Preview Assets.xcassets */; };
+		A9AB6E18288BD98200E7E08F /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AB6E17288BD98200E7E08F /* Trapezoid.swift */; };
+		A9AB6E1A288BDA5000E7E08F /* Checkerboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AB6E19288BDA5000E7E08F /* Checkerboard.swift */; };
 		A9F59E7D288B299A0062A803 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E7C288B299A0062A803 /* Flower.swift */; };
 		A9F59E7F288B2B170062A803 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F59E7E288B2B170062A803 /* ColorCyclingCircle.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +23,8 @@
 		A933025A2888AC73003DF201 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A933025C2888AC73003DF201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A933025F2888AC73003DF201 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9AB6E17288BD98200E7E08F /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
+		A9AB6E19288BDA5000E7E08F /* Checkerboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkerboard.swift; sourceTree = "<group>"; };
 		A9F59E7C288B299A0062A803 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 		A9F59E7E288B2B170062A803 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +65,8 @@
 				A933025C2888AC73003DF201 /* Assets.xcassets */,
 				A933025E2888AC73003DF201 /* Preview Content */,
 				A9F59E7E288B2B170062A803 /* ColorCyclingCircle.swift */,
+				A9AB6E17288BD98200E7E08F /* Trapezoid.swift */,
+				A9AB6E19288BDA5000E7E08F /* Checkerboard.swift */,
 			);
 			path = Drawing;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9AB6E1A288BDA5000E7E08F /* Checkerboard.swift in Sources */,
+				A9AB6E18288BD98200E7E08F /* Trapezoid.swift in Sources */,
 				A933025B2888AC73003DF201 /* ContentView.swift in Sources */,
 				A9F59E7F288B2B170062A803 /* ColorCyclingCircle.swift in Sources */,
 				A93302592888AC73003DF201 /* DrawingApp.swift in Sources */,
